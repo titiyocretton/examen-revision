@@ -1,0 +1,45 @@
+.row + .row {
+  margin-top: 16px;
+}
+
+.row > .col,
+.row > [class^="col-"] {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  background-color: #ffeeb08e;
+  border: 1px solid #ffd737;
+}
+
+.l-container {
+  display: flex;
+}
+
+.l-container-1 {
+  justify-content: center;
+}
+
+.l-container-2 {
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.l-container-3 .box {
+  width: 320px;
+}
+
+.l-container-3 {
+  flex-wrap: wrap;
+}
+
+.l-header {
+  background: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.l-main {
+  padding: 50px 0;
+}
+
+.l-footer {
+  background: #000;
+}
